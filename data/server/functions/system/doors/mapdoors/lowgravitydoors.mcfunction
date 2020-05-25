@@ -1,0 +1,3 @@
+# Respawn all doors in the map
+#execute positioned -115 63 71 unless entity @e[type=armor_stand,tag=door,distance=0] run summon minecraft:armor_stand -115 63 71 {Tags:["door"],NoGravity:1b,Invulnerable:1b,Invisible:1b,PersistenceRequired:1b}
+#execute positioned -115 63 72 unless entity @e[type=armor_stand,tag=door,x=-115,y=63,z=72,distance=0] run summon minecraft:armor_stand -115 63 72 {Tags:["door"],NoGravity:1b,Invulnerable:1b,Invisible:1b,PersistenceRequired:1b}

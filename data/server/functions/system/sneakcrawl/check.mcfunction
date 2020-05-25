@@ -1,0 +1,1 @@
+execute anchored eyes positioned ^ ^ ^0.4 positioned ~ ~-0.4 ~ align xyz positioned ~0.5 ~0.4 ~0.5 unless block ~ ~1 ~ #minecraft:slabs[type=top] unless block ~ ~1 ~ minecraft:air if block ~ ~ ~ #server:crawlable run function server:system/sneakcrawl/spawn

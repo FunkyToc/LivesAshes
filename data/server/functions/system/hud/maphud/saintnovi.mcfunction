@@ -1,0 +1,2 @@
+# Respawn all hud in the map
+#execute positioned 9 9 9 unless entity @e[type=armor_stand,tag=hud,distance=0] run summon minecraft:armor_stand 9 9 9 {Tags:["hud"],CustomNameVisible:0b,NoGravity:1b,Invulnerable:1b,Invisible:1b,PersistenceRequired:1b,CustomName:'[{"text":"Saint Novi","color":"white","bold":false}]'}

@@ -1,0 +1,3 @@
+execute if entity @s[predicate=server:sneaking,predicate=server:on_air,x_rotation=-70..20] unless entity @e[type=minecraft:area_effect_cloud,tag=climbing,distance=..0.5] run function server:system/climbwall/check
+execute as @e[type=area_effect_cloud,tag=climbing] at @s unless entity @p[distance=..1] run function server:system/climbwall/despawn
+execute as @e[type=area_effect_cloud,tag=climbing,nbt={Age:100}] at @s run function server:system/climbwall/despawn

@@ -1,0 +1,2 @@
+execute if entity @p[distance=..10] run data merge entity @s {CustomNameVisible:1b}
+execute unless entity @p[distance=..10] if entity @p[distance=10.01..] run data merge entity @s {CustomNameVisible:0b}

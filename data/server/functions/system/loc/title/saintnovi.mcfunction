@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"You enter ","color":"gray"},{"text":"Saint Novi","bold":true,"color":"aqua","hoverEvent":{"action":"show_text","value":"Safe place"}},{"text":"'s map.","color":"gray"}]

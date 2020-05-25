@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"You enter ","color":"gray"},{"text":"Gobelin Village","bold":true,"color":"dark_red","hoverEvent":{"action":"show_text","value":"Dangerous place"}},{"text":"'s map.","color":"gray"}]

@@ -1,0 +1,1 @@
+execute if block ~ ~-1 ~ minecraft:air anchored eyes positioned ^ ^ ^0.6 positioned ~ ~-0.1 ~ align xyz positioned ~0.5 ~0.4 ~0.5 unless block ~ ~-1 ~ #server:climbable if block ~ ~ ~ #server:climbable unless block ~ ~-1 ~ minecraft:air if block ~ ~1 ~ #server:climbable at @s run function server:system/climbwall/spawn

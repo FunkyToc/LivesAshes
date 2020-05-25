@@ -1,0 +1,2 @@
+# Respawn all hud in the map
+#execute positioned 70 25 99 unless entity @e[type=armor_stand,tag=hud,distance=0] run summon minecraft:armor_stand 70 25 99 {Tags:["hud"],CustomNameVisible:0b,NoGravity:1b,Invulnerable:1b,Invisible:1b,PersistenceRequired:1b,CustomName:'[{"text":"Scanner.","color":"gray","bold":true},{"text":"Enter to get your security pass","color":"white","bold":false}]'}
