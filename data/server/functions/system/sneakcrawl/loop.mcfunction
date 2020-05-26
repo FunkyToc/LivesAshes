@@ -1,2 +1,2 @@
-execute if entity @s[predicate=server:sneaking,x_rotation=30..45] unless entity @e[type=minecraft:shulker,tag=crawling,distance=..1.65] run function server:system/sneakcrawl/check
+execute if entity @s[predicate=server:sneaking,predicate=server:on_gound,x_rotation=30..45] unless entity @e[type=minecraft:shulker,tag=crawling,distance=..1.65] run function server:system/sneakcrawl/check
 execute as @e[type=minecraft:shulker,tag=crawling,distance=..5] at @s unless entity @a[distance=..1.65] run function server:system/sneakcrawl/despawn
